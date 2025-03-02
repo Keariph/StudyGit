@@ -21,7 +21,9 @@
     "Header": {
       "NameGuid": "70acaaa4-9dd3-4088-b726-6a82f68d6427",
       "BackgroundPosition": "Stretch"
-    }
+    },
+    "RemoteControls": [],
+    "Tabs": []
   },
   "Dependencies": [
     {
@@ -34,12 +36,30 @@
   "ExplorerTreeOrder": [
     {
       "ItemId": "777801d5-52c2-4f93-8d21-6bdfd81dd813"
+    },
+    {
+      "ItemId": "816b48e4-155a-409e-ade9-7b044617b11b",
+      "PreviousItemId": "777801d5-52c2-4f93-8d21-6bdfd81dd813"
+    },
+    {
+      "ItemId": "3aa4af8d-ad5e-47af-92d5-f130c1133d00",
+      "PreviousItemId": "816b48e4-155a-409e-ade9-7b044617b11b"
+    },
+    {
+      "ItemId": "3d080e92-0f4d-4fb2-82dd-b48601cbf8e1",
+      "PreviousItemId": "3aa4af8d-ad5e-47af-92d5-f130c1133d00"
+    },
+    {
+      "ItemId": "30d6923f-6734-4cdb-b6c6-bdb5b28463a2",
+      "PreviousItemId": "3d080e92-0f4d-4fb2-82dd-b48601cbf8e1"
     }
   ],
   "IconResourcesKeys": [],
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "DirRX.HelpDesk",
+  "IsolatedAssemblyName": "DirRX.HelpDesk.Isolated",
+  "IsolatedNamespace": "DirRX.HelpDesk.Isolated",
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "DirRX.HelpDesk",
@@ -54,7 +74,7 @@
   "Versions": [
     {
       "Type": "ModuleMetadata",
-      "Number": 6
+      "Number": 8
     },
     {
       "Type": "DomainApi",
